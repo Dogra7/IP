@@ -1,0 +1,77 @@
+Functions**********
+console.log("----Functions-----"); 
+function mean(a, b, c, d) {
+ mean = (a + b + c + d) / 4;
+ return mean;
+}
+console.log("The mean of numbers is :" + mean(4, 6, 7, 5));
+function add() {
+ let sum = 0;
+ for (let i = 0; i < arguments.length; i++) {
+ sum += arguments[i];
+ }
+ 
+ return sum;
+}
+console.log("The sum of numbers = " + add(7, 3, 4, 5, 6));
+
+
+
+Classes & Object**********
+
+console.log("-----Classes and objects-----"); 
+class Person {
+ constructor(name) {
+ this.name = name;
+ }
+ greet() {
+ console.log(`Hello ${this.name}`);
+ }
+}
+let person1 = new Person('Deep');
+console.log(person1.name);
+person1.greet();
+class Name {
+ constructor(name) {
+ this.name = name;
+ }
+ get personName() {
+ return this.name;
+ }
+ set personName(x) {
+ this.name = x;
+ }
+}
+let person = new Name('drashti');
+console.log(person.name);
+person.personName = " drashti19";
+console.log(person.name);
+
+
+
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head><body>
+<h3>Events</h3>
+<button onclick="alert('Welcome to Home Page')">Home</button>
+<button onclick="alert('Welcome to About Page ')">About Us</button>
+<button id="google">Google</button>
+<p onmouseover="mouseoverevent()">Keep Cursor over me!</p>
+<script>
+ document.getElementById("google").addEventListener("click", function () {
+ window.location = "https://www.google.com";
+ window.focus;
+ })
+</script>
+<script>
+ function mouseoverevent() {
+ alert("This is Drashti ");
+ }
+</script>
+</body>
+</html>

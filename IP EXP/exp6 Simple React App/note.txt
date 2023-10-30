@@ -1,0 +1,5 @@
+pip install npm, npx
+npm install create-react-app 
+npx create-react-app myapp
+cd myapp
+npm start

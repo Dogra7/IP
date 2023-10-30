@@ -1,0 +1,94 @@
+HTML Code:-
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME USING HTML</title>
+    <link rel="stylesheet" href="try.css">
+    <br>
+</head>
+<body>
+    <div class="main">
+
+    <div class="header">
+        <font size="10">
+            <font color="brown"><i><b>RESUME</b></i></font>
+        </font>
+    </div>
+    <font size="5">
+        <font color="Purple"><u>Deep Mhatre</u></font>
+    </font>
+     <div class="img">
+    <img src="dp.jpg" width="200px" height="200px">
+    </div>
+    <div class="b" >
+    <h3>ADDRESS:-</h3></div>
+    <div class="abc">
+        <p>Sector 19<br>Kharghar Navi Mumbai<br>Pincode -410210</p>
+    </div>
+    <hr>
+    <h4>OBEJECTIVE:-</h4>
+    <div class="abc">
+        <p>I want to occupy a decent job so that I can buy a PS5. </p>
+    </div>
+    <hr>
+    <h4>EDUCATION:-</h4>
+    <ul>
+        <li>PPHS & Jr College</li>
+        <li>Bharati Vidyapeeth College Of Engineering, Navi Mumbai - Bachelor of Information Technology</li>
+    </ul>
+    <hr>
+    <h4>PROJECTS:-</h4>
+    <div>
+        <ul>
+            <li>Library Management Sytem, Railway Reservation System </li>
+        
+        </ul>
+    </div>
+    <hr>
+    <h4>SKILLLS:-</h4>
+    <div class="abc">
+        <p>LANGUAGES : JAVA, PYTHON, HTML&CSS</p>
+    </div>
+    <hr>
+    <h4>HOBBIES:-</h4>
+    <div class="abc">
+        <p>GAMING , COOKING</p>
+        
+    </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+CSS Code: -
+body{
+    height: 100%;
+    margin: auto;
+    display: table;
+   vertical-align: middle;
+    width: 60%;
+}
+.abc{
+    margin-left: 1.5%;
+}
+.header{
+    margin-left: 43%;
+    padding-top: 2%;
+}
+.img{
+    margin-right: 10%;
+}
+.main{
+    background-color: beige;
+}
+.b{
+    margin-left:1%;
+}

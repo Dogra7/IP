@@ -1,0 +1,43 @@
+Variables and operators********
+
+console.log("------Variables and operators-------")
+let x = 50;
+let y = 5;
+let z = x+y;
+console.log("sum is :" + z);
+console.log('x % y = ', x % y); 
+console.log('++x = ', ++x); 
+console.log('x++ = ', x++); 
+console.log('x = ', x); 
+console.log('--x = ', --x); 
+console.log('x-- = ', x--); 
+console.log('x = ', x);
+console.log('x ** y =', x ** y);
+
+
+
+Conditons & loop******
+
+console.log("-------Conditions and loops------")
+let a = 20;
+if(a==10){ 
+console.log("a is equal to 10"); 
+} 
+else if(a==15){ 
+console.log("a is equal to 15"); 
+} 
+else if(a==20){ 
+console.log("a is equal to 20"); 
+} 
+else{ 
+console.log("a is not equal to 10, 15 or 20"); 
+}
+for (let i = 0; i < 10; i++) {
+console.log("Hello World!");
+}
+var i=11; 
+while (i<=15) 
+{ 
+console.log(i); 
+i++;
+}

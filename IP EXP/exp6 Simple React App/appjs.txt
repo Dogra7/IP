@@ -1,0 +1,23 @@
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <div className="centered">
+        <img src="/praj.jpg" alt="Example" className="centered-image" />
+        <h1>
+          Name : Praj Pramod Mhatre
+        </h1>
+        <h2>
+          Roll No: 36
+        </h2>
+        <h2>
+          College: : BVCOE Navi Mumbai
+        </h2>
+      </div>
+    </div>
+  );
+}
+
+export default App;
