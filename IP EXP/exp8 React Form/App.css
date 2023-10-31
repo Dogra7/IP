@@ -1,0 +1,75 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.registration-form {
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 40px; 
+  border-radius: 12px; 
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.registration-form .form-group label {
+  color: #007bff; 
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="tel"],
+.registration-form input[type="email"],
+.registration-form input[type="date"] {
+  border-color: #007bff; 
+}
+
+.registration-form button[type="submit"] {
+  background-color: #4caf50; 
+}
