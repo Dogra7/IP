@@ -1,0 +1,101 @@
+.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="try.css">
+<script>
+    function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+    alert("Name must be filled out");
+    return false;
+    }
+    }
+    </script>
+    </head>
+    <body>
+       
+        <div class="main">
+            <div class="title">
+                <legend><h3>REGISTRATION FORM</h3></legend>
+                </div><br>
+                <div class="container">
+    <form name="myForm" action="/" onsubmit="return validateForm()" method="post">
+        <label>Enter your Name</label><br> <input type="text" name="fname" placeholder="Enter you Full Name">
+    
+ <br>
+<label>Enter your email</label><br>
+<input type="email" name="email" size="30"
+placeholder="ex.myname@examlple.com"><br><br>
+<label>Enter your password</label><br>
+<input type="password" name="pass" size="30" placeholder="must 
+be at least 8 characters"><br><br>
+<label>confirm your password</label><br>
+<input type="password" name="pass" size="30" placeholder="must 
+be same"><br>
+<br><label>Enter your gender</label><br>
+<input type="radio" name="gender" value="male"/>Male <br>
+<input type="radio" name="gender" value="female"/>Female 
+<br>
+<input type="radio" name="gender" value="others"/>others <br>
+<br>Enter your Address:<br>
+<input type="text" placeholder="Street name 1" size="30"><br>
+<input type="text" placeholder="street name 2" size="30"><br>
+<form action="/action_page.php">
+<label for="State">choose state:</label>
+<select name="State" id="State" >
+<option >Maharashtra</option>
+<option >Tamil Nadu</option>
+<option >Rajasthan</option>
+<option >Kerala</option>
+<option>Kerala</option>
+</select><br>
+<input type="text" placeholder="city name"
+size="30"><br><br>
+<input type="submit" value="Submit">
+</form>
+
+</div>
+</div>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+try.css
+body {
+        
+    font-size: 16px;
+}
+.main {
+    justify-content: center;
+    border-style: solid;
+    margin: 2% auto;
+    width: 30%;
+    background-color: #d1e6d8;
+}
+    
+.container{
+   
+    font-size: 125%;
+    margin-left: 28%; 
+    padding-bottom: 5%;
+}
+
+
+
+.title {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
